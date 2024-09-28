@@ -14,13 +14,13 @@ void regula_falsi(double a, double b, double tolerance, int max_iterations) {
     double c = a; 
     int iteration = 0;
 
-    printf("Iteration\t x0\t\t x1\t\t x2\t\t f(x2)\n");
-    printf("---------------------------------------------------------------------------\n");
+    printf("Iteration\t x0\t\t x1\t\t x2\n");
+    printf("-----------------------------------------------------------------\n");
 
     while (iteration < max_iterations) {
         c = ((a*f(b)) - (b*f(a))) / (f(b) - f(a));
 
-        printf("%d\t\t %.5f\t %.5f\t %.5f\t %.5f\n", iteration + 1, a, b, c, f(c));
+        printf("%d\t\t %.5f\t %.5f\t %.5f\n", iteration + 1, a, b, c);
 
         if (fabs(f(c)) < tolerance) {
             break;
@@ -35,7 +35,7 @@ void regula_falsi(double a, double b, double tolerance, int max_iterations) {
         iteration++;
     }
 
-    printf("---------------------------------------------------------------------------\n");
+    printf("-----------------------------------------------------------------\n");
     printf("The approximate root is = %.5f\n", c);
 }
 
@@ -56,4 +56,3 @@ int main() {
 
     return 0;
 }
-//Approx root : 2.70653
