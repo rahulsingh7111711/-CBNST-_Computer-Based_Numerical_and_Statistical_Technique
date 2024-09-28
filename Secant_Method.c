@@ -9,8 +9,8 @@ void secant(double x0, double x1, double tolerance, int max_iterations) {
     double x2;
     int iteration = 0;
 
-    printf("Iteration\t x0\t\t x1\t\t x2\t\t f(x2)\n");
-    printf("---------------------------------------------------------------------------\n");
+    printf("Iteration\t x0\t\t x1\t\t x2\n");
+    printf("------------------------------------------------------------\n");
 
     while (iteration < max_iterations) {
         x2 = ((x0*f(x1)) - (x1* f(x0))) / (f(x1) - f(x0));
@@ -26,7 +26,7 @@ void secant(double x0, double x1, double tolerance, int max_iterations) {
         iteration++;
     }
 
-    printf("---------------------------------------------------------------------------\n");
+    printf("------------------------------------------------------------\n");
     printf("The approximate root is = %.5f\n", x2);
 }
 
@@ -46,4 +46,3 @@ int main() {
     secant(x0, x1, tolerance, max_iterations);
     return 0;
 }
-//Approx root : 2.7065
