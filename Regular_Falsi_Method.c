@@ -42,7 +42,7 @@ void regula_falsi(double a, double b, double tolerance, int max_iterations) {
 int main() {
     double a, b, tolerance;
     int max_iterations;
-
+    printf("Name: RAHUL KUMAR SINGH \nRoll No: 48 \nSection: C\n\n");
     printf("Enter the first initial guess (x0): ");
     scanf("%lf", &a);
     printf("Enter the second initial guess (x1): ");
