@@ -35,7 +35,7 @@ void nr(double x0, double e) {
 
 int main() {
     double x0, e;
-
+    printf("Name: RAHUL KUMAR SINGH \nRoll No: 48 \nSection: C\n\n");
     printf("Enter the initial guess (x0): ");
     scanf("%lf", &x0);
     printf("Enter the tolerance value: ");
