@@ -4,7 +4,7 @@
 int main() {
     float x, u1, u, y;
     int i, j, n, fact;
-
+    printf("Name: RAHUL KUMAR SINGH \nRoll No: 48 \nSection: C\n\n");
     printf("Enter the number of terms: ");
     scanf("%d", &n);
 
