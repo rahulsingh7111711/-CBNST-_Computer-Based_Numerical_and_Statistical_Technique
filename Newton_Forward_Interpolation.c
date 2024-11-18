@@ -8,7 +8,7 @@ int main() {
 
     // Declare arrays to store X and Y values and difference table
     float a[MAX][MAX];
-
+    printf("Name: RAHUL KUMAR SINGH \nRoll No: 48 \nSection: C\n\n");
     // Input number of terms (n)
     printf("Enter the number of terms: ");
     scanf("%d", &n);
