@@ -40,7 +40,7 @@ void bisection(double a, double b, double tolerance) {
 
 int main() {
     double a, b, tolerance;
-
+    printf("Name: RAHUL KUMAR SINGH \nRoll No: 48 \nSection: C\n\n");
     printf("Enter the first initial guess (x0): ");
     scanf("%lf", &a);
     printf("Enter the second initial guess (x1): ");
