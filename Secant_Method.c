@@ -33,7 +33,7 @@ void secant(double x0, double x1, double tolerance, int max_iterations) {
 int main() {
     double x0, x1, tolerance;
     int max_iterations;
-
+    printf("Name: RAHUL KUMAR SINGH \nRoll No: 48 \nSection: C\n\n");
     printf("Enter the first initial guess (x0): ");
     scanf("%lf", &x0);
     printf("Enter the second initial guess (x1): ");
